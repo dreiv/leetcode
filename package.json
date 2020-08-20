@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/shuffle-the-array.js"
+    "start": "nodemon src/easy/kids-with-the-greatest-number-of-candies.js"
   },
   "repository": {
     "type": "git",

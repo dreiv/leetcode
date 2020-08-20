@@ -1,3 +1,8 @@
+/**
+ * @param {number[]} nums
+ * @param {number} n
+ * @return {number[]}
+ */
 function shuffle(nums, n) {
   const secondHalf = nums.splice(n);
 
