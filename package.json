@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/771.jewels-and-stones.js"
+    "start": "nodemon src/easy/1528.shuffle-string.js"
   },
   "repository": {
     "type": "git",
