@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/number-of-steps-to-reduce-a-number-to-zero.js"
+    "start": "nodemon src/easy/771.jewels-and-stones.js"
   },
   "repository": {
     "type": "git",
