@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/defanging-an-ip-address.js"
+    "start": "nodemon src/easy/number-of-steps-to-reduce-a-number-to-zero.js"
   },
   "repository": {
     "type": "git",

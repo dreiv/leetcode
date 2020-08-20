@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/number-of-good-pairs/
+
 /**
  * @param {number[]} nums
  * @return {number}
