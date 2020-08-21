@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/1281.subtract-the-product-and-sum-of-digits-of-an-integer.js"
+    "start": "nodemon src/easy/1313.decompress-run-length-encoded-list.js"
   },
   "repository": {
     "type": "git",
