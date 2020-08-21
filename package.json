@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/1528.shuffle-string.js"
+    "start": "nodemon src/easy/1365.how-many-numbers-are-smaller-than-the-current-number.js"
   },
   "repository": {
     "type": "git",
