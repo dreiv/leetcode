@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/1313.decompress-run-length-encoded-list.js"
+    "start": "nodemon src/easy/1486.xor-operation-in-an-array.js"
   },
   "repository": {
     "type": "git",
