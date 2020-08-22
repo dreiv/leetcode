@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/1221.split-a-string-in-balanced-strings.js"
+    "start": "nodemon src/bst/938.range-sum-of-bst.js"
   },
   "repository": {
     "type": "git",
