@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/bst/938.range-sum-of-bst.js"
+    "start": "nodemon src/easy/1266.minimum-time-visiting-all-points.js"
   },
   "repository": {
     "type": "git",
