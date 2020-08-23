@@ -5,7 +5,7 @@
  * @param {number[]} index
  * @return {number[]}
  */
-var createTargetArray = function (nums, index) {
+function createTargetArray(nums, index) {
   const result = [];
 
   for (const i in nums) {
@@ -13,7 +13,7 @@ var createTargetArray = function (nums, index) {
   }
 
   return result;
-};
+}
 
 console.log(createTargetArray([0, 1, 2, 3, 4], [0, 1, 2, 2, 1]));
 // [0,4,1,3,2]

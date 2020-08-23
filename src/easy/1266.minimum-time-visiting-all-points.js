@@ -4,7 +4,7 @@
  * @param {number[][]} points
  * @return {number}
  */
-var minTimeToVisitAllPoints = function (points) {
+function minTimeToVisitAllPoints(points) {
   let visitTime = 0;
 
   for (let i = 0; i < points.length - 1; i++) {
@@ -15,7 +15,7 @@ var minTimeToVisitAllPoints = function (points) {
   }
 
   return visitTime;
-};
+}
 
 console.log(
   minTimeToVisitAllPoints([
