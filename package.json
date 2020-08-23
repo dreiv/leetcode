@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/lists/1290.convert-binary-number-in-a-linked-list-to-integer.js"
+    "start": "nodemon src/bst/938.range-sum-of-bst.js"
   },
   "repository": {
     "type": "git",

@@ -14,16 +14,33 @@
  * @param {number} R
  * @return {number}
  */
-function rangeSumBST(root, L, R, sum = 0) {
-  if (!root) {
-    return sum;
+function rangeSumBST(root, L, R) {
+  if (root === null) {
+    return 0;
   }
 
-  if (root.val <= R && root.val >= L) {
-    sum += root.val;
+  let sum = 0;
+  const stack = [root];
+
+  while (stack.length > 0) {
+    const currentNode = stack.pop();
+
+    if (currentNode) {
+      if (currentNode.val >= L && R >= currentNode.val) {
+        sum += currentNode.val;
+      }
+
+      if (currentNode.val > L) {
+        stack.push(currentNode.left);
+      }
+
+      if (R > currentNode.val) {
+        stack.push(currentNode.right);
+      }
+    }
   }
 
-  return sum + rangeSumBST(root.left, L, R) + rangeSumBST(root.right, L, R);
+  return sum;
 }
 
 const bst1 = {
