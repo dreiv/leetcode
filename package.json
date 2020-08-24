@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/1464.maximum-product-of-two-elements-in-an-array.js"
+    "start": "nodemon src/easy/1323.maximum-69-number.js"
   },
   "repository": {
     "type": "git",
