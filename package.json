@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/1252.cells-with-odd-values-in-a-matrix.js"
+    "start": "nodemon src/easy/1534.count-good-triplets.js"
   },
   "repository": {
     "type": "git",
