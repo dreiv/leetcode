@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/to-lower-case/
 
-let alphaObj = {
+let map = {
   A: 'a',
   B: 'b',
   C: 'c',
@@ -37,7 +37,7 @@ function toLowerCase(str) {
   let result = '';
 
   for (let char of str) {
-    result += alphaObj[char] || char;
+    result += map[char] || char;
   }
 
   return result;

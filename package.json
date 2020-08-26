@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/easy/1436.destination-city.js"
+    "start": "nodemon src/easy/1309.decrypt-string-from-alphabet-to-integer-mapping.js"
   },
   "repository": {
     "type": "git",
